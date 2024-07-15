@@ -57,6 +57,28 @@ section {
   gap: 0.5rem;
 }
 
+#section-1 {
+  .items {
+    background-color: #006400;
+  }
+}
+#section-2 {
+  .items {
+    background-color: chartreuse;
+  }
+}
+#section-3 {
+  .items {
+    background-color: darksalmon;
+  }
+}
+#section-4 {
+  .items {
+    background-color: aqua;
+  }
+}
+
+
 .group {
   width: 100%;
   height: 4.5rem;
@@ -75,8 +97,15 @@ section {
   align-items: center;
 }
 
-aside .group {
-  height: 8.5rem;
+aside {
+  section {
+    .group {
+      height: 8.5rem;
+    }
+    .items {
+      background-color: lightblue;
+    }
+  }
 }
 
 p {
@@ -85,3 +114,4 @@ p {
   font-size: 1rem;
   text-align: center;
 }
+
